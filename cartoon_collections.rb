@@ -12,7 +12,7 @@ end
 def long_planeteer_calls(array)
   array.all? {|i| i > 4}
   array.each do |str|
-    
+
   end
 end
 
