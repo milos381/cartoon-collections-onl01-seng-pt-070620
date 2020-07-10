@@ -8,7 +8,6 @@ def summon_captain_planet(array)
   array.map { |str| str << '!' }
   #array.map do |element|
   #   "#{element}!"
-  end
 end
 
 def long_planeteer_calls(array)
