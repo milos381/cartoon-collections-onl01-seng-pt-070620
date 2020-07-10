@@ -5,7 +5,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.map { |n| "#{n}!"}
+  array.map { |str| str << '!' }
   #array.map do |element|
   #   "#{element}!"
   end
