@@ -5,14 +5,12 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.map { |str| str << '!' }
-  array.map { |str| str.capitalize }
-  #array.map do |element|
-  #   "#{element}!"
+  array.map { |str| str << '!' }    #one line map method
+  array.map { |str| str.capitalize }    #one line map method
 end
 
 def long_planeteer_calls(array)
-  # Your code here
+  array.any?{|str| > 4}
 end
 
 def find_the_cheese(array)
