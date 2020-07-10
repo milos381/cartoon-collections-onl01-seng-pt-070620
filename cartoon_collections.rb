@@ -10,7 +10,10 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.any? {|i| i > 4}
+  #array.any? {|i| i > 4}
+  array.each do |str|
+    return false unless str.size > 4
+  end
 end
 
 def find_the_cheese(array)
