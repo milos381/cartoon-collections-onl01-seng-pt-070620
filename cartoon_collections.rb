@@ -5,7 +5,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.map do |element| 
+  array.map do |element|
     puts "#{element}!"
   end
 end
